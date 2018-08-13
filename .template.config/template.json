@@ -1,0 +1,38 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Silverness",
+  "classifications": [
+    "WebApi"
+  ],
+  "name": "Silverness Template API",
+  "identity": "silverness.template.api",
+  "shortName": "silverness.template.api",
+  "tags": {
+    "language": "C#"
+  },
+  "sourceName": "silverness.template.api",
+  "preferNameDirectory": false,
+  "symbols": {
+    "Namespace": {
+      "type": "parameter",
+      "dataType": "string",
+      "description": "Renames files and symbols containing 'xnamespace'",
+      "replaces": "xnamespace",
+      "fileRename": "xnamespace"
+    },
+    "DomainObject": {
+      "type": "parameter",
+      "dataType": "string",
+      "description": "Renames files and symbols containing 'xDomainObject'",
+      "replaces": "xDomainObject",
+      "fileRename": "xDomainObject"
+    },
+    "ServiceName": {
+      "type": "parameter",
+      "dataType": "string",
+      "description": "Renames files and symbols containing 'xservicename'",
+      "replaces": "xservicename",
+      "fileRename": "xservicename"
+    }
+  }
+}
